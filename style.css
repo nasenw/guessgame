@@ -1,0 +1,89 @@
+html {
+  background-color: rgb(26, 26, 26);
+  color: whitesmoke;
+}
+
+.game-title-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+#number-box {
+  background-color: tomato;
+  padding: 20px;
+  width: 80px;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  background-color: rgb(34, 34, 34);
+}
+
+.input-guess-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreboard-container {
+  text-align: start;
+}
+
+.user-guess {
+  margin-bottom: 50px;
+}
+
+button {
+  width: 75%;
+}
+
+input {
+  height: 65px;
+  text-align: center;
+}
+
+p {
+  display: inline;
+}
+
+.reset-button {
+  position: absolute;
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  padding: 5px;
+  top: 20px;
+  left: 20px;
+  background-color: rgb(0, 0, 0);
+}
+
+.game-rules {
+  position: absolute;
+  padding: 10px;
+  top: 20px;
+  right: 20px;
+  background-color: grey;
+  color: black;
+}
+
+.rules {
+  display: block;
+}
+
+#userGuess {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
